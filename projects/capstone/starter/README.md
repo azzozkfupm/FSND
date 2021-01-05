@@ -1,4 +1,4 @@
-# Full Stack Warranty Tracker API Backend
+# Full Stack Casting Agency app API Backend
 
 ## About
 The Casting Agency app is used to show, store, update and delete Movies and Actors.
@@ -83,9 +83,9 @@ A token needs to be passed to each endpoint.
 For the follwing endpoint, the token can be retrived by following these steps:
 1. Go to https: https://azeezudacity.us.auth0.com/authorize?audience=http://localhost:8080/&response_type=token&client_id=SKGkKb36N290sybOuIdJcsAmJJ2spS2T&redirect_uri=https://casting-agency2020.herokuapp.com/
 
-2. Then enter the following sample credential:
-   Email: azzoz_kfupm@hotmail.com
-   Password: 
+2. Then enter the following token:
+   token: CASTING_ASSISTANT_TOKEN
+   
 
 #### GET '/ACTORS'
 Returns a list of all available actors.
@@ -123,9 +123,8 @@ Sample response output:
 For the follwing endpoint, the token can be retrived by following these steps:
 1. Go to https: https://azeezudacity.us.auth0.com/authorize?audience=http://localhost:8080/&response_type=token&client_id=SKGkKb36N290sybOuIdJcsAmJJ2spS2T&redirect_uri=https://casting-agency2020.herokuapp.com/
 
-2. Then enter the following sample credential:
-   Email: azeez_outlook@hotmail.com
-   Password:
+2. Then enter the following token:
+   token: CASTING_DIRECTOR_TOKEN
 
 #### POST '/ACTORS'
 Add new actor and Returns a the new actor that has been added.
@@ -189,9 +188,8 @@ curl https://casting-agency2020.herokuapp.com/actors/1 -X DELETE -H "Content-Typ
 For the follwing endpoint, the token can be retrived by following these steps:
 1. Go to https: https://azeezudacity.us.auth0.com/authorize?audience=http://localhost:8080/&response_type=token&client_id=SKGkKb36N290sybOuIdJcsAmJJ2spS2T&redirect_uri=https://casting-agency2020.herokuapp.com/
 
-2. Then enter the following sample credential:
-   Email: azzoz232139@gmail.com
-   Password: 
+2. Then enter the following token:
+   token: EXECUTIVE PRODUCER_TOKEN
 
 #### POST '/MOVIES'
 Add new movie and Returns a the new movie that has been added.
